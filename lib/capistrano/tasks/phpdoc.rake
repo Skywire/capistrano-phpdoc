@@ -5,6 +5,7 @@ namespace :phpdoc do
     task :generate do
       on release_roles :all do
         within release_path do
+            execute :mkdir, 'pub/docs'
             execute :touch, 'pub/docs/build.log'
             execute :phpdoc, ' -d vendor/skywire/ -d app/code -t pub/docs > pub/docs/build.log &'
         end
