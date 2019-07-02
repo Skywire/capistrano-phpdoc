@@ -1,0 +1,1 @@
+load File.expand_path('../tasks/phpdoc.rake', __FILE__)
