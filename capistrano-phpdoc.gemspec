@@ -3,13 +3,13 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = 'capistrano-staging-branch'
+  spec.name          = 'capistrano-phpdoc'
   spec.version       = '0.0.1'
   spec.authors       = ['Tom Scott-Malden', 'Neil Aitken']
   spec.email         = ['tom@skywire.co.uk', 'neil@skywire.co.uk']
-  spec.description   = %q{staging branch support for Skywire Capistrano}
-  spec.summary       = %q{staging branch support for Skywire Capistrano}
-  spec.homepage      = 'https://github.com/Skywire/capistrano-staging-branch'
+  spec.description   = %q{PHPDoc support for Skywire Capistrano}
+  spec.summary       = %q{PHPDoc support for Skywire Capistrano}
+  spec.homepage      = 'https://github.com/Skywire/capistrano-phpdoc'
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
