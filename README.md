@@ -21,3 +21,7 @@ Add the following to your project Capfile
 ~~~
 require "capistrano/phpdoc"
 ~~~
+
+## Requirments
+
+Requires the `phpDocumentor.phar` to be installed and in path
